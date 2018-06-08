@@ -88,6 +88,21 @@ body {
     padding: 0;
 }
 
+.blendin {
+    color: rgb(236, 236, 236);
+}
+
+.sideimg1 {
+    height: 30px;
+    width: 30px;
+}
+
+
+.twitterimg {
+    height: 50px;
+    width: 50px;
+}
+
 @media screen and (min-width:576px) {
     .paperstacklogo {
         bottom: 113px;
@@ -141,6 +156,30 @@ body {
         height: 100px;
         width: 100px;
     }
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+
+
+    li::before {
+        display:inline-block;
+        content: '';
+        height:0.75rem;
+        width:0.75rem;
+        margin-right:0.5rem;
+        bacground-color: #bdbdbd;
+    }
+
+/*    li.sideimg1 {
+        list-style-image: url("../assets/images/head.jpg");
+    }*/
+
 }
 
 .font-anton {
