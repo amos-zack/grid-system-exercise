@@ -59,6 +59,10 @@ body {
     margin-left: 20px;
 }
 
+.selectedwork {
+    margin-top: 75px;
+}
+
 
 @media screen and (min-width:576px) {
     .paperstacklogo {
