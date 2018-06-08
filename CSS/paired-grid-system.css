@@ -1,4 +1,7 @@
 
+body {
+    background-color: rgb(236, 236, 236);
+}
 
 
 .whitestrip {
@@ -19,7 +22,29 @@
     bottom: 67px;
 }
 
+
+
+.circularbutton {
+    background-color: red;
+    border: 10px solid white;
+    border-radius: 50%;
+    height: 100px;
+    columns: white;
+}
+
+
+.navbarxs {
+    color: black;
+    position: relative;
+    bottom: 55px;
+}
+
+.navbarxs:visited {
+    color: blue;
+}
+
 /*  navbar for sm */
+
 
 
 .navbarsm {
