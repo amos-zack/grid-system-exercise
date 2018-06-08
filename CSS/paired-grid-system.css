@@ -86,6 +86,7 @@ body {
 
 .featured {
     padding: 0;
+
 }
 
 .blendin {
@@ -99,8 +100,8 @@ body {
 
 
 .twitterimg {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 @media screen and (min-width:576px) {
@@ -186,8 +187,16 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.alt-featured {
+    font-size: 10px;
+}
+
 .margin-title {
     margin-bottom: 50px;
+}
+
+.smbtnpadding {
+    padding-left: 0;
 }
 /* End navbar for sm */
 
