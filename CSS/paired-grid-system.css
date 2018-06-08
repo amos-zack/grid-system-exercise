@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Anton');
 
 body {
     background-color: rgb(236, 236, 236);
@@ -25,11 +26,13 @@ body {
 
 
 .circularbutton {
+    width: 150px;
     background-color: red;
     border: 10px solid white;
     border-radius: 50%;
-    height: 100px;
-    columns: white;
+    height: 150px;
+    color: white;
+    margin: 10px;
 }
 
 
@@ -79,8 +82,13 @@ body {
     .codeupdes {
         bottom: 67px;
     }
+
+    .circularbutton {
+        height: 100px;
+        width: 100px;
+    }
 }
-@import url('https://fonts.googleapis.com/css?family=Abel|Anton');
+
 .font-anton {
     font-family: 'Anton', sans-serif;
 }
