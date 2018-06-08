@@ -61,8 +61,30 @@ body {
 
 .selectedwork {
     margin-top: 75px;
+    margin-bottom: 50px;
 }
 
+.smallbuttons {
+    width: 30px;
+    height: 30px;
+    background-color: lightcyan;
+    border-radius: 50%;
+}
+
+.blockimgs {
+    border: 20px solid lightgrey;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.beneathimgs {
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.containerdashbutton {
+    justify-content: center;
+}
 
 @media screen and (min-width:576px) {
     .paperstacklogo {
