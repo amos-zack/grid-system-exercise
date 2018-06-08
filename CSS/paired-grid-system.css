@@ -11,7 +11,7 @@
     height: 105px;
     width: 105px;
     position: relative;
-    bottom: 72px
+    bottom: 89px
 }
 
 .codeupdes {
@@ -19,3 +19,41 @@
     bottom: 67px;
 }
 
+/*  navbar for sm */
+
+
+.navbarsm {
+    position: relative;
+    bottom: 41px;
+}
+
+.d-sm-block:nth-child(2) {
+    margin-left: 20px;
+}
+
+
+@media screen and (min-width:576px) {
+    .paperstacklogo {
+        bottom: 113px;
+    }
+    .worknav {
+        margin-left: 20px;
+    }
+
+    .codeupdes {
+        bottom: 91px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .paperstacklogo {
+        bottom: 89px;
+    }
+
+    .codeupdes {
+        bottom: 67px;
+    }
+}
+
+/* End navbar for sm */
