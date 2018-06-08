@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton');
 
+html,
 body {
     background-color: rgb(236, 236, 236);
 }
@@ -55,9 +56,6 @@ body {
     bottom: 41px;
 }
 
-.d-sm-block:nth-child(2) {
-    margin-left: 20px;
-}
 
 .selectedwork {
     margin-top: 75px;
@@ -72,7 +70,7 @@ body {
 }
 
 .blockimgs {
-    border: 20px solid lightgrey;
+    border: 5px solid lightgrey;
     border-radius: 15px;
     margin-bottom: 10px;
 }
@@ -84,6 +82,10 @@ body {
 
 .containerdashbutton {
     justify-content: center;
+}
+
+.featured {
+    padding: 0;
 }
 
 @media screen and (min-width:576px) {
@@ -102,6 +104,25 @@ body {
         position: relative;
         bottom: 40px;
     }
+
+    .circularbutton {
+        height: 125px;
+        width: 125px;
+    }
+
+
+    .bottomline {
+        border-bottom: 1px solid black;
+    }
+
+    .frompark {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .smallbuttons {
+    }
+
 }
 
 
