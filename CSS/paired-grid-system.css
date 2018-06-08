@@ -80,5 +80,15 @@ body {
         bottom: 67px;
     }
 }
+@import url('https://fonts.googleapis.com/css?family=Abel|Anton');
+.font-anton {
+    font-family: 'Anton', sans-serif;
+}
 
+.margin-title {
+    margin-bottom: 50px;
+}
 /* End navbar for sm */
+
+
+/*  Imported font-family) */
