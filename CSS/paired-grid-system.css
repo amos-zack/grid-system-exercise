@@ -97,7 +97,14 @@ body {
     .codeupdes {
         bottom: 91px;
     }
+
+    .visual-design-text {
+        position: relative;
+        bottom: 40px;
+    }
 }
+
+
 
 
 @media screen and (min-width:768px) {
