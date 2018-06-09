@@ -29,13 +29,20 @@ body {
 .circularbutton {
     width: 150px;
     background-color: red;
-    border: 10px solid white;
+    border: 8px solid white;
     border-radius: 50%;
     height: 150px;
     color: white;
     margin: 10px;
 }
 
+.designbutton {
+    background-color: rgb(222, 63, 45)
+}
+
+.developbutton {
+    background-color: rgb(224, 141, 21)
+}
 
 .navbarxs {
     color: black;
@@ -65,7 +72,6 @@ body {
 .smallbuttons {
     width: 30px;
     height: 30px;
-    background-color: lightcyan;
     border-radius: 50%;
 }
 
@@ -86,18 +92,28 @@ body {
 
 .featured {
     padding: 0;
-
 }
+
+
 
 .blendin {
     color: rgb(236, 236, 236);
 }
 
 .sideimg1 {
-    height: 30px;
-    width: 30px;
+    height: 42px;
+    width: 37px;
 }
 
+.sideimg3 {
+    height: 42px;
+    width: 37px;
+}
+
+
+.alt-featured {
+    font-size: 10px;
+}
 
 .twitterimg {
     height: 30px;
@@ -126,9 +142,13 @@ body {
         width: 125px;
     }
 
+    .alt-featured {
+        font-size: 10px;
+    }
+
 
     .bottomline {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid rgb(193, 193, 193);
     }
 
     .frompark {
@@ -136,9 +156,20 @@ body {
         bottom: 40px;
     }
 
-    .smallbuttons {
+    .smbtnpadding {
+        padding-left: 0;
     }
 
+    .featured p {
+        font-size: 10px;
+    }
+
+    .smallbuttons {
+        height: 20px;
+        width: 20px;
+        padding: 1px;
+        font-size: 10px;
+    }
 }
 
 
@@ -147,10 +178,13 @@ body {
 @media screen and (min-width:768px) {
     .paperstacklogo {
         bottom: 89px;
+        right: 355px;
     }
 
     .codeupdes {
-        bottom: 67px;
+        bottom: 165px;
+        right: 170px;
+        font-size: 2.0rem;
     }
 
     .circularbutton {
@@ -164,9 +198,24 @@ body {
         margin: 0;
     }
 
+    .visual-design-text {
+        position: relative;
+        bottom: 50px;
+        font-size: 3.5rem;
+    }
 
+    .frompark {
+        font-size: 42px;
+    }
 
+    .lastweet {
+        margin: none;
+    }
 
+    .navbarxs {
+        position: relative;
+        bottom: 100px;
+    }
 
     li::before {
         display:inline-block;
@@ -174,7 +223,6 @@ body {
         height:0.75rem;
         width:0.75rem;
         margin-right:0.5rem;
-        bacground-color: #bdbdbd;
     }
 
 /*    li.sideimg1 {
@@ -187,9 +235,7 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-.alt-featured {
-    font-size: 10px;
-}
+
 
 .margin-title {
     margin-bottom: 50px;
@@ -202,3 +248,65 @@ body {
 
 
 /*  Imported font-family) */
+
+@media screen and (min-width:992px) {
+
+    html,
+    body {
+
+    }
+
+    .sidelinks {
+        font-size: 20px;
+    }
+
+    .sideimg1 {
+        height: 50px;
+        width: 50px;
+    }
+
+    .sideimg3 {
+        height: 50px;
+        width: 50px;
+    }
+
+    .twitterimg {
+        margin-top: 50px;
+    }
+
+    .lastweet {
+        margin-top: 50px;
+    }
+
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .sidelinks {
+        font-size: 25px;
+    }
+
+    .sideimg1 {
+        top: 4px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .sideimg3 {
+        position: relative;
+        top: 25px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .twitterimg {
+        margin-top: 100px;
+    }
+
+    .lastweet {
+        margin-top: 100px;
+    }
+
+
+}

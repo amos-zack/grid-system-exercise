@@ -72,37 +72,40 @@
     </div>
 
     <div class="row justify-content-center visual-design-text">
-        <div class="text-uppercase font-anton text-center margin-title"><h1><strong>Visual Design & Web Development</strong><h1></h1>
+        <div class="text-uppercase font-anton text-center margin-title">
+            <h1 class="visual-design-text"><strong>Visual Design & Web Development</strong></h1>
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="text-uppercase font-anton text-center frompark"><h3><strong>From Park City, Utah</strong></h3></div>
+        <div class="text-uppercase font-anton text-center frompark">
+            <h3 class="frompark"><strong>From Park City, Utah</strong></h3>
+        </div>
     </div>
     <div class="container">
         <div class="row justify-content-center bottomline">
-            <div class="col-6 col-sm-3">
-                <button class="circularbutton font-anton">DESIGN</button>
+            <div class="col-6 col-sm-3 col-md-2 col-lg-2">
+                <button class="circularbutton font-anton designbutton">DESIGN</button>
             </div>
-            <div class="col-6 col-sm-3">
-                <button class="circularbutton font-anton">DEVELOP</button>
+            <div class="col-6 col-sm-3 col-md-2 col-lg-2">
+                <button class="circularbutton font-anton developbutton">DEVELOP</button>
             </div>
-                <div class="col-6 col-sm-3">
-                    <button class="circularbutton font-anton">SUPPORT</button>
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2">
+                    <button class="circularbutton font-anton bg-success">SUPPORT</button>
                 </div>
-                <div class="col-6 col-sm-3">
-                    <button class="circularbutton font-anton">HOST</button>
+                <div class="col-6 col-sm-3 col-md-2 col-lg-2">
+                    <button class="circularbutton font-anton bg-info">HOST</button>
                 </div>
         </div>
     </div>
-    <div class="row justify-content-center selectedwork">
-        <div class=""><h6>SELECTED WORK</h6></div>
+    <div class="row justify-content-center selectedwork ">
+        <div class="d-md-none"><h6>SELECTED WORK</h6></div>
     </div>
     <div class="container">
         <div class="row">
             <div class="container-fluid col-12 col-md-8">
                 <div class="row">
-                <div class="col-12 col-sm-6 col-md-4">
-                    <h6>SELECTED WORK</h6>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <h6 class="d-none d-md-block">SELECTED WORK</h6>
                     <img class="img-fluid blockimgs" src="assets/images/apple-ipad.jpg" border="5">
                     <div class="row beneathimgs featured ">
                         <div class="col-6 featured">
@@ -110,23 +113,23 @@
                         </div>
                         <div class="col-2"></div>
                         <div class="col-1 smbtnpadding">
-                            <button class="smallbuttons float-right">D</button>
+                            <button class="smallbuttons float-right designbutton">D</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">D</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-warning">D</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">S</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-success">S</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">H</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-info">H</button>
                         </div>
                     </div>
                 </div>
 
-                <div class=" d-none d-sm-block col-sm-6 col-md-4">
-                    <h6 class="blendin">wat</h6>
-                    <img class="img-fluid blockimgs" src="assets/images/apple-ipad.jpg" border="5">
+                <div class=" d-none d-sm-block col-sm-6 col-md-6">
+                    <h6 class="d-none d-md-block blendin">wat</h6>
+                    <img class="img-fluid blockimgs" src="assets/images/macbook.jpg" border="5">
                     <div class="row beneathimgs ">
                         <div class="col-6 featured">
                             <p>FEATURED PROJECT</p>
@@ -134,16 +137,16 @@
                         <div class="col-2">
                         </div>
                         <div class="col-1 smbtnpadding">
-                            <button class="smallbuttons float-right">D</button>
+                            <button class="smallbuttons float-right designbutton">D</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">D</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-warning">D</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">S</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-success">S</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">H</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-info">H</button>
                         </div>
                     </div>
                 </div>
@@ -151,8 +154,8 @@
 
 
             <div class="row">
-                <div class="d-none d-sm-block col-sm-6 col-md-4">
-                    <img class="img-fluid blockimgs" src="assets/images/apple-ipad.jpg" border="5">
+                <div class="d-none d-sm-block col-sm-6 col-md-6">
+                    <img class="img-fluid blockimgs" src="assets/images/man.jpg" border="5">
                     <div class="row beneathimgs ">
                         <div class="col-6 featured">
                             <p>FEATURED PROJECT</p>
@@ -160,58 +163,72 @@
                         <div class="col-2">
                         </div>
                         <div class="col-1 smbtnpadding">
-                            <button class="smallbuttons float-right">D</button>
+                            <button class="smallbuttons float-right designbutton">D</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">D</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-warning">D</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">S</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-success">S</button>
                         </div>
-                        <div class="col-1">
-                            <button class="smallbuttons float-right">H</button>
+                        <div class="col-1 smbtnpadding">
+                            <button class="smallbuttons float-right bg-info">H</button>
                         </div>
                     </div>
                 </div>
 
-                <div class=" d-none d-sm-block col-sm-6 col-md-4">
-                    <img class="img-fluid blockimgs" src="assets/images/apple-ipad.jpg" border="5">
+                <div class=" d-none d-sm-block col-sm-6 col-md-6">
+                    <img class="img-fluid blockimgs" src="assets/images/security.jpg" border="5">
                         <div class="row beneathimgs ">
                             <div class="col-6 featured">
                                 <p>FEATURED PROJECT</p>
                             </div>
                             <div class="col-2"></div>
                             <div class="col-1 smbtnpadding">
-                                <button class="smallbuttons float-right">D</button>
+                                <button class="smallbuttons float-right designbutton">D</button>
                             </div>
-                            <div class="col-1">
-                                <button class="smallbuttons float-right">D</button>
+                            <div class="col-1 smbtnpadding">
+                                <button class="smallbuttons float-right bg-warning">D</button>
                             </div>
-                            <div class="col-1">
-                                <button class="smallbuttons float-right">S</button>
+                            <div class="col-1 smbtnpadding">
+                                <button class="smallbuttons float-right bg-success">S</button>
                             </div>
-                            <div class="col-1">
-                                <button class="smallbuttons float-right">H</button>
+                            <div class="col-1 smbtnpadding">
+                                <button class="smallbuttons float-right bg-info">H</button>
                             </div>
                         </div>
                 </div>
             </div>
         </div>
+
+
+
             <div class="d-none d-md-block col-md-4">
-                <ul class="sideimages">
-                    <img class="sideimg1 float-left" src="assets/images/security.jpg"><li class="font-anton">
-                    <h6><strong>THE ADMIN BAR AND ABSOLUTE POSITIONING</strong></h6></li>
-                    <li class="font-anton"><h6><strong>NIBBLER AWESOME WEBSITE TESTING</strong></h6></li>
-                    <li class="font-anton"><h6><strong>HOW TO GET GOOGLE TO LIKE YOU</strong></h6></li>
-                </ul>
+                <h6 class="d-none d-md-block">THE LAST</h6>
+                <div class="row">
+                    <div class="d-none d-md-block col-md-2">
+                        <ul class="sideimages">
+                        <li class="font-anton"> <img class="sideimg1 float-left" src="assets/images/mobile-phone.jpg"></li>
+                        <li class="font-anton"> <img class="sideimg1 float-left" src="assets/images/head.jpg"></li>
+                        <li class="font-anton"> <img class="sideimg3 float-left" src="assets/images/ipad.jpg"></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10">
+                        <ul class="sideimages">
+                        <li class="font-anton"><h6 class="sidelinks"><strong>THE ADMIN BAR AND ABSOLUTE POSITIONING</strong></h6></li>
+                        <li class="font-anton"><h6 class="sidelinks"><strong>NIBBLER AWESOME WEBSITE TESTING</strong></h6></li>
+                        <li class="font-anton"><h6 class="sidelinks"><strong>HOW TO GET GOOGLE TO LIKE YOU</strong></h6></li>
+                        </ul>
+                    </div>
+                </div>
                 <br>
                 <br>
-                <img class="twitterimg float-left" src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/512/Twitter-icon.png">
-                   &nbsp;Last Tweet
+                <img class="alt-featured twitterimg float-left" src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/512/Twitter-icon.png">
+                <p class="lastweet">&nbsp;Last Tweet</p>
+                <p class="alt-featured">Lorem ipsum dolor sit amet, consectetur adipis-ciing elite, sed diam nonummy nibh euismod sorem ipsum dolo sit amet, cocsector adipiscing.</p>
                 <br>
                 <br>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipis-ciing elite, sed diam nonummy nibh euismod sorem ipsum dolo sit amet, cocsector adipiscing.</p>
             </div>
     </div>
 
