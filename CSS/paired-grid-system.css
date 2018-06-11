@@ -177,14 +177,15 @@ body {
 
 @media screen and (min-width:768px) {
     .paperstacklogo {
-        bottom: 89px;
-        right: 355px;
+        bottom: 112px;
+        right: 362px;
     }
 
     .codeupdes {
-        bottom: 165px;
-        right: 170px;
-        font-size: 2.0rem;
+        bottom: 188px;
+        right: 202px;
+        font-size: 28px;
+       /* font-family: 'Open Sans Condensed', sans-serif;*/
     }
 
     .circularbutton {
@@ -209,7 +210,7 @@ body {
     }
 
     .lastweet {
-        margin: none;
+        /*margin: none;*/
     }
 
     .navbarxs {
@@ -249,7 +250,20 @@ body {
 
 /*  Imported font-family) */
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1000px) {
+    .paperstacklogo {
+        height: 75px;
+        width: 75px;
+        bottom: 100px;
+        right: 355px;
+        position: relative;
+    }
+
+    .codeupdes {
+        bottom: 155px;
+        right: 220px;
+        font-size: 1.5em;
+    }
 
     html,
     body {
@@ -282,6 +296,20 @@ body {
 }
 
 @media screen and (min-width:1200px) {
+
+    .paperstacklogo {
+        height: 60px;
+        width: 60px;
+        bottom: 94px;
+        right: 355px;
+        position: relative;
+    }
+
+    .codeupdes {
+        bottom: 140px;
+        right: 220px;
+        font-size: 1.5em;
+    }
 
     .sidelinks {
         font-size: 25px;
